@@ -1,0 +1,82 @@
+#locator { position: absolute; visibility: visible; left: 850px; top: 230px; height: 300px; width: 200px; z-index: 200; }
+
+#locator2 { position: absolute; visibility: visible; left: 180px; top: 230px; height: 300px; width: 200px; z-index: 200; }
+
+#locator3 { position: absolute; visibility: visible; left: 0px; top: 20px; height: 100px; width: 200px; z-index: 200; }
+
+#locator4 { position: absolute; visibility: visible; left: 400px; top: 780px; height: 600px; width: 500px; z-index: 400; }
+
+#locator5 { position: absolute; visibility: visible; left: 30px; top: 910px; height: 900px; width: 400px; z-index: 400; }
+
+#locator6 { position: absolute; visibility: visible; left: 310px; top: 910px; height: 900px; width: 400px; z-index: 400; }
+
+#locator7 { position: absolute; visibility: visible; left: 580px; top: 900px; height: 900px; width: 400px; z-index: 400; }
+
+#locator8 { position: absolute; visibility: visible; left: 840px; top: 880px; height: 900px; width: 400px; z-index: 400; }
+
+#locator9 { position: absolute; visibility: visible; left: 30px; top: 1050px; height: 900px; width: 400px; z-index: 400; }
+
+#locator10 { position: absolute; visibility: visible; left: 310px; top: 1050px; height: 900px; width: 400px; z-index: 400; }
+
+#locator11 { position: absolute; visibility: visible; left: 575px; top: 1050px; height: 900px; width: 400px; z-index: 400; }
+
+#locator12 { position: absolute; visibility: visible; left: 838px; top: 1050px; height: 900px; width: 400px; z-index: 400; }
+
+#locator13 { position: absolute; visibility: visible; left: 435px; top: 1420px; height: 900px; width: 400px; z-index: 400; }
+
+#locator14 { position: absolute; visibility: visible; left: 500px; top: 1540px; height: 100px; width: 500px; z-index: 400; }
+
+#locator15 { position: absolute; visibility: visible; left: 30px; top: 1230px; height: 100px; width: 500px; z-index: 400; }
+
+#locator16 { position: absolute; visibility: visible; left: 210px; top: 1580px; height: 100px; width: 500px; z-index: 400; }
+
+#locator17 { position: absolute; visibility: visible; left: 200px; top: 1490px; height: 100px; width: 570px; z-index: 400; }
+
+#locator18 { position: absolute; visibility: visible; left: 920px; top: 1460px; height: 100px; width: 200px; z-index: 100; }
+
+#locator19 { position: absolute; visibility: visible; left: 210px; top: 1740px; height: 100px; width: 500px; z-index: 400; }
+
+#locator20 { position: absolute; visibility: visible; left: 780px; top: 1650px; height: 100px; width: 500px; z-index: 400; }
+
+#locator21 { position: absolute; visibility: visible; left: 45px; top: 1550px; height: 100px; width: 500px; z-index: 400; }
+
+#locator22 { position: absolute; visibility: visible; left: 210px; top: 1900px; height: 100px; width: 500px; z-index: 400; }
+
+#locator23 { position: absolute; visibility: visible; left: 205px; top: 1800px; height: 100px; width: 500px; z-index: 400; }
+
+#locator24 { position: absolute; visibility: visible; left: 210px; top: 2045px; height: 100px; width: 500px; z-index: 400; }
+
+#locator25 { position: absolute; visibility: visible; left: 930px; top: 1900px; height: 100px; width: 300px; z-index: 400; }
+
+#locator26 { position: absolute; visibility: visible; left: 590px; top: 2300px; height: 100px; width: 300px; z-index: 400; }
+
+#locator27 { position: absolute; visibility: visible; left: 200px; top: 2250px; height: 100px; width: 300px; z-index: 400; }
+
+#locator28 { position: absolute; visibility: visible; left: 260px; top: 2670px; height: 100px; width: 800px; z-index: 400; }
+
+#locator29 { position: absolute; visibility: visible; left: 260px; top: 2570px; height: 100px; width: 800px; z-index: 400; }
+
+#locator30 { position: absolute; visibility: visible; left: 260px; top: 2370px; height: 100px; width: 900px; z-index: 400; }
+
+#locator31 { position: absolute; visibility: visible; left: 380px; top: 2990px; height: 100px; width: 900px; z-index: 400; }
+
+
+
+#locator32 { position: absolute; visibility: visible; left: 560px; top: 3180px; height: 100px; width: 900px; z-index: 400; }
+
+#locator33 { position: absolute; visibility: visible; left: 150px; top: 3080px; height: 100px; width: 900px; z-index: 400; }
+
+#locator34 { position: absolute; visibility: visible; left: 220px; top: 3520px; height: 100px; width: 900px; z-index: 400; }
+
+#locator35 { position: absolute; visibility: visible; left: 560px; top: 3850px; height: 100px; width: 900px; z-index: 400; }
+
+#locator36 { position: absolute; visibility: visible; left: 260px; top: 3580px; height: 100px; width: 900px; z-index: 400; }
+
+#locator37 { position: absolute; visibility: visible; left: 280px; top: 4350px; height: 100px; width: 900px; z-index: 400; }
+
+.white { color: #EBEBEB; }
+.red { color: #921919; }
+.lightblue { color : #7AA694; }
+.usared { color : #E92A37; }
+.yellow { color : #F2EF4D; }
+.small { font-size: 40px }
