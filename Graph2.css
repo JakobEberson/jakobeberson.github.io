@@ -1,0 +1,46 @@
+.text1 {
+	font-family:Bebas neue;
+	color:white;
+	font-size: 150px;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	text-shadow: 2px 2px black;
+
+}
+a:link {
+	font-size: 40PX;
+	
+}
+    
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 40PX;
+  
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+a:hover, a:active {
+    background-color: red;
+    
+}
+
+.text2 {
+
+	float: left;
+
+	font-family: bebas neue;
+	
+
+}
+
+.ruta {
+	border-radius: 30%;
+	
+	text-align: center;
+
+
+
+}
