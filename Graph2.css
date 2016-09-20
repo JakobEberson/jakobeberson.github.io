@@ -7,40 +7,172 @@
 	text-shadow: 2px 2px black;
 
 }
-a:link {
+
+.text3 {
+	font-family:Bebas neue;
+	color:white;
+	font-size: 100px;
+	margin-top: -230px;
+	margin-bottom: 0px;
+	text-shadow: 2px 2px black;
+}
+
+/*Sports button*/
+
+a.ruta:link {
 	font-size: 40PX;
 	
 }
     
-a:link, a:visited {
+a.ruta:link, a.ruta:visited {
     background-color: #f44336;
     color: white;
-    padding: 10px 40PX;
+    padding: 0px 40PX;
   
     text-decoration: none;
     display: inline-block;
     
 }
 
-a:hover, a:active {
+a.ruta:hover, a.ruta:active {
     background-color: red;
     
 }
 
+a.ruta2:link {
+	font-size: 40PX;
+	
+}
+    
+a.ruta2:link, a.ruta2:visited {
+    background-color: grey;
+    color: white;
+    padding: 0px 35PX;
+  
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+a.ruta2:hover, a.ruta2:active {
+    background-color: #404040;
+    
+}
+
+
+
 .text2 {
 
-	float: left;
-
 	font-family: bebas neue;
-	
 
 }
 
 .ruta {
-	border-radius: 30%;
 	
+	margin-right: 80px;
 	text-align: center;
+}
+
+.ruta2 {
+	
+	margin-left: 80px;
+
+	text-align: center;
+}
+
+
+
+
+
+#counter {
+	/*margin-left: 230px;*/
+	font-family: bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+	
 
 
 
 }
+#counter2 {
+	margin-left: 0px;
+	font-family: bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+	
+
+}
+
+#counter3 {
+	font-family: Bebas neue;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#counter4 {
+	font-family: Bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+}
+
+#back {
+	margin-bottom: 400px;
+}
+
+.headline {
+	font-family: Bebas neue;
+	font-size: 60px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+
+}
+
+/* Paul Pogba Picture */
+
+#Pogba {
+
+	border-radius: 100%;
+	/* margin-left: 200px; */
+}
+
+.pogDiv {
+	width: 250px;
+	height: 170px;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 150px;
+}
+
+.ronDiv {
+	width: 250px;
+	height: 170px;
+	text-align: center;
+	margin-left: 650px;
+	margin-top: -170px
+}
+
+
+.mesDiv {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: -170px;
+
+}
+
+.ibraDiv {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	margin-left: 950px;
+	margin-top: -250px;
+}
+
+
