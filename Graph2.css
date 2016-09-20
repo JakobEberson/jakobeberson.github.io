@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Bebas neue;
+    src: url(BebasNeue.otf);
+}
 .text1 {
 	font-family:Bebas neue;
 	color:white;
