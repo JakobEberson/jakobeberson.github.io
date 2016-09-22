@@ -1,0 +1,44 @@
+@font-face {
+    font-family:Bebas neue;
+    src: url(BebasNeue.otf);
+
+#counter5 {
+	font-family: Bebas neue;
+	font-size: 80px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#counter6 {
+	font-family: Bebas neue;
+	font-size: 80px;
+	color: white;
+	text-shadow: 2px 2px black;
+
+}
+
+#counter7 {
+		font-family: Bebas neue;
+	font-size: 80px;
+	color: white;
+	text-shadow: 2px 2px black;
+
+}
+
+#counter8 {
+	font-family: Bebas neue;
+	font-size: 80px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.text1 {
+	font-family: Bebas neue;
+	font-size: 40px;
+	color: black;
+}
+
+body {
+	background-image: url("http://www.galaxiastudio.com/wp-content/uploads/2014/03/2252.jpg");
+	background-size: 5000px 3000px;
+}
