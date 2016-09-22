@@ -82,7 +82,25 @@ a.ruta3:hover, a.ruta3:active {
     background-color: #c3c3aa;
     
 }
+a.ruta4:link {
+	font-size: 40PX;
+	
+}
+    
+a.ruta4:link, a.ruta4:visited {
+    background-color: #ccccff;
+    color: white;
+    padding: 0px 30PX;
+  
+    text-decoration: none;
+    display: inline-block;
+    
+}
 
+a.ruta4:hover, a.ruta4:active {
+    background-color: #cc99ff;
+    
+}
 
 .text2 {
 
