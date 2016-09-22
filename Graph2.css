@@ -69,7 +69,7 @@ a.ruta3:link {
 }
     
 a.ruta3:link, a.ruta3:visited {
-    background-color: #ccccff;
+    background-color: #ebebd2;
     color: white;
     padding: 0px 30PX;
   
@@ -79,7 +79,7 @@ a.ruta3:link, a.ruta3:visited {
 }
 
 a.ruta3:hover, a.ruta3:active {
-    background-color: #cc99ff;
+    background-color: #c3c3aa;
     
 }
 
