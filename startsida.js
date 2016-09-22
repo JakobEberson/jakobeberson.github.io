@@ -32,7 +32,7 @@ var counter5 = 0;
 window.setInterval(
 function () {
 counter5 = counter5 + 54;
-document.getElementById("counter5").innerHTML = counter5;
+document.getElementById("counter5").innerHTML = counter5 + "";
 }, 31,25);
 
 var counter7 = 0;
