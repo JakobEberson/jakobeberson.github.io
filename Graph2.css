@@ -1,11 +1,11 @@
 @font-face {
     font-family:Bebas neue;
     src: url(BebasNeue.otf);
-}
+
 .text1 {
-	font-family:Bebas neue;
+	font-family: bebas neue;
 	color:white;
-	font-size: 150px;
+	font-size: 110px;
 	margin-top: 150px;
 	margin-bottom: 0px;
 	text-shadow: 2px 2px black;
@@ -31,7 +31,7 @@ a.ruta:link {
 a.ruta:link, a.ruta:visited {
     background-color: #f44336;
     color: white;
-    padding: 0px 40PX;
+    padding: 0px 30PX;
   
     text-decoration: none;
     display: inline-block;
@@ -51,7 +51,7 @@ a.ruta2:link {
 a.ruta2:link, a.ruta2:visited {
     background-color: grey;
     color: white;
-    padding: 0px 35PX;
+    padding: 0px 30PX;
   
     text-decoration: none;
     display: inline-block;
@@ -63,28 +63,46 @@ a.ruta2:hover, a.ruta2:active {
     
 }
 
+a.ruta3:link {
+	font-size: 40PX;
+	
+}
+    
+a.ruta3:link, a.ruta3:visited {
+    background-color: #ccccff;
+    color: white;
+    padding: 0px 30PX;
+  
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+a.ruta3:hover, a.ruta3:active {
+    background-color: #cc99ff;
+    
+}
 
 
 .text2 {
 
 	font-family: bebas neue;
+	font-size: 20px;
 
 }
 
 .ruta {
 	
-	margin-right: 80px;
+	margin-right: 0px;
 	text-align: center;
 }
 
 .ruta2 {
 	
-	margin-left: 80px;
+	margin-left: 0px;
 
 	text-align: center;
 }
-
-
 
 
 
@@ -122,6 +140,34 @@ a.ruta2:hover, a.ruta2:active {
 	color:white;
 	text-shadow: 2px 2px black;
 }
+/*Taylor Swift*/
+#counter9 {
+	font-family: Bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+}
+/*One Direction*/
+#counter10 {
+	font-family: Bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+}
+/*Dr Phil*/
+#counter11 {
+	font-family: Bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+}
+
+#counter12 {
+	font-family: Bebas neue;
+	font-size: 30px;
+	color:white;
+	text-shadow: 2px 2px black;
+}
 
 #back {
 	margin-bottom: 400px;
@@ -150,14 +196,14 @@ a.ruta2:hover, a.ruta2:active {
 	height: 170px;
 	text-align: center;
 	margin-left: 50px;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .ronDiv {
 	width: 250px;
 	height: 170px;
 	text-align: center;
-	margin-left: 650px;
+	margin-left: 950px;
 	margin-top: -170px
 }
 
@@ -166,12 +212,44 @@ a.ruta2:hover, a.ruta2:active {
 	width: 250px;
 	height: 250px;
 	text-align: center;
-	margin-left: 350px;
+	margin-left: 650px;
 	margin-top: -170px;
 
 }
 
 .ibraDiv {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: -250px;
+}
+
+.SwiftDiv {
+	width: 250px;
+	height: 170px;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: -20px;
+}
+
+.DirectionDiv {
+	width: 250px;
+	height: 170px;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: -176px;
+}
+/*Kevin Hart*/
+.DrDiv {
+		width: 250px;
+	height: 250px;
+	text-align: center;
+	margin-left: 650px;
+	margin-top: -170px;
+}
+/*Adele*/
+.HartDiv {
 	width: 250px;
 	height: 250px;
 	text-align: center;
