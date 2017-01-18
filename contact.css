@@ -1,11 +1,18 @@
 body {
-	background-color: #d9d9d9;
+	background-color: #FFF0D9;
 }
 
 p {
 	font-family: Montserrat;
 	font-size: 15px;
 	color: black;
+}
+
+#Contactme {
+	font-family: Montserrat;
+	font-size: 60px;
+	color: white;
+
 }
 
 input[type=text] {

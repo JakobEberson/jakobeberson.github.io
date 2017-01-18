@@ -18,7 +18,8 @@ hr {
 
 #rubrik {
 	font-family: Montserrat;
-	font-size: 15px;
+	font-size: 30px;
+	color: white;
 	
 }
 
@@ -31,7 +32,8 @@ hr {
 	float:right; 
 	width:50%;
 	font-family: Montserrat;
-	font-size: 15px;
+	font-size: 20px;
+	color: white;
 }
 
 #left {
@@ -39,7 +41,8 @@ hr {
 	float:left; 
 	width:50%;
 	font-family: Montserrat;
-	font-size: 15px;
+	font-size: 20px;
+	color: white;
 }
 
 #arrow {
