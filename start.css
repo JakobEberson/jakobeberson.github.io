@@ -1,0 +1,80 @@
+
+html, body { height: 100%; padding: 0; margin: 0; }
+div { width: 50%; height: 50%; float: left; }
+#div1 { background: #111;  }
+#div1:hover { background-color: #222; }
+#div2 { background: #FFC1C1; }
+#div2:hover { background-color: #FFD7D7; }
+#div3 { background: #FFE4B9; }
+#div3:hover { background-color: #FFF0D9; }
+#div4 { background-color: #d9d9d9; }
+
+#about {
+	font-family: Montserrat;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 25%;
+}
+/*
+#portratt {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	margin: 0; 
+	z-index: -1;
+	top: 0;
+
+
+}
+
+#portratt:hover {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	margin: 0; 
+	z-index: -1;
+	top: 0;
+	-webkit-filter:blur(0px);
+}
+
+*/
+
+#projects {
+	font-family: Montserrat;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 25%;
+}
+
+#contact {
+	font-family: Montserrat;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 25%;
+}
+
+
+#arrow_left {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 14%;
+	transition: all .2s ease-in-out;
+}
+
+#arrow_left:hover {
+	/*height: 320px;
+	width: 320px;
+	top: 8%;*/
+	transform: scale(1.1);
+}
+
+
+

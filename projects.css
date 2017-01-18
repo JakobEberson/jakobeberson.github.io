@@ -1,0 +1,58 @@
+body {
+	background-color: #d9d9d9;
+}
+
+hr {
+	width: 30%;
+	color: black;
+}
+
+#right {
+	text-align: center;
+	float:left; 
+	width:43%;
+	font-family: Montserrat;
+	font-size: 15px;
+}
+
+#left {
+	text-align: center;
+	float:left; 
+	width:43%;
+	font-family: Montserrat;
+	font-size: 15px;
+
+}
+
+#middle {
+float: left;
+}
+
+
+
+#SI {
+	border-radius: 5%;
+	transition: all .2s ease-in-out;
+}
+
+#SI:hover {
+	transform: scale(1.2);
+}
+
+#Life {
+	border-radius: 5%;
+	transition: all .2s ease-in-out;
+}
+
+#Life:hover {
+	transform: scale(1.2);
+}
+
+#Gasen {
+	border-radius: 5%;
+	transition: all .2s ease-in-out;
+}
+
+#Gasen:hover {
+	transform: scale(1.2);
+}

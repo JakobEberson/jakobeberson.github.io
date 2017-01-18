@@ -1,0 +1,253 @@
+nav {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d9d9d9;
+}
+
+hr {
+	width: 30%;
+}
+
+#cv {
+  background: url(cv_icon.png) 0 0 transparent;
+  border: medium none !important;
+  width: 150px;
+  height: 45px;
+  color: transparent;
+}
+
+#cv_place {
+	float: right;
+	margin-top: 4%;
+	margin-right: 5%;
+}
+#cv:hover {
+  background: url(cv_icon.png) 0 -45px transparent;
+}
+
+#Jakob {
+	font-family: Montserrat;
+	font-size: 60px;
+	color: black;
+	margin-top: 13%;
+	margin-bottom: -0.1%;
+}
+
+#Yrke {
+	font-family: Montserrat;
+	font-size: 20px;
+	color: black;
+}
+
+#linkedin:hover {
+	content: url(linkedin_logo_hover.png)
+	height: 25px;
+	width: 25px;
+}
+
+.hover_image:hover {text-decoration: none} /* Optional (avoid undesired underscore if a is used as wrapper) */
+.hide {display:none}
+/* Do the shift: */
+.hover_image:hover img:first-child{display:none}
+.hover_image:hover img:last-child{display:inline-block}
+
+
+#arrow_down {
+	margin-top: 10%;
+}
+
+#text {
+	font-family: Existence;
+	font-size: 20px;
+	width: 60%;
+}
+
+.om_mig {
+	border: 2px solid black;
+	padding: 5%;
+	width: 55%;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+#Education {
+	width: 100%;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+.timeline {
+	margin: 0 auto;
+}
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+
+
+
+
+
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+  background: #F45B69;
+  padding: 100px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline ul li {
+
+  list-style-type: none;
+  position: relative;
+  width: 5px;
+  margin: 0 auto;
+  padding-top: 1%;
+  background: black;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 50px;
+  background: white;
+  border: 3px solid black;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 50px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 10px 8px 0;
+  border-color: transparent black transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -550px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 10px;
+  border-color: transparent transparent transparent black;
+}
+
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+ 
+.timeline ul li.in-view::after {
+  background: black;
+}
+ 
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+ 
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(0px,0,0);
+}
+ 
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(0px,0,0);
+}
+ 
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+   
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+   
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
+
