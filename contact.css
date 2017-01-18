@@ -1,0 +1,39 @@
+body {
+	background-color: #d9d9d9;
+}
+
+p {
+	font-family: Montserrat;
+	font-size: 15px;
+	color: black;
+}
+
+input[type=text] {
+		width: 15%;
+		height: 20px;
+}
+
+input[type=text]:focus {
+	outline: none;
+    border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: transparent;
+    border: #6D5E39 2px 2px;
+    color: #6D5E39;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #FFC1C1;
+    border: #FFC1C1 2px 2px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

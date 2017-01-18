@@ -1,0 +1,55 @@
+body {
+	background-color: #d9d9d9;
+}
+
+hr {
+	width: 10%;
+	color: black;
+}
+
+#Signature {
+	margin-top: 1%;
+	transition: all .2s ease-in-out;
+}
+
+#Signature:hover {
+	transform: scale(1.1);
+}
+
+#rubrik {
+	font-family: Montserrat;
+	font-size: 15px;
+	
+}
+
+.align {
+	float: right;
+}
+
+#right {
+	text-align: center;
+	float:right; 
+	width:50%;
+	font-family: Montserrat;
+	font-size: 15px;
+}
+
+#left {
+	text-align: center;
+	float:left; 
+	width:50%;
+	font-family: Montserrat;
+	font-size: 15px;
+}
+
+#arrow {
+	position: relative;
+	margin-top: 18%;
+	margin-left: 2%;
+	transition: all .2s ease-in-out;
+}
+
+#arrow:hover {
+	transform: scale(1.2);
+}
+
