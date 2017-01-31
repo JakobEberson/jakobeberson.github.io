@@ -56,3 +56,17 @@ hr {
 	transform: scale(1.2);
 }
 
+#hi {
+	font-family: Bebas neue;
+	font-size: 180px;
+	color: white;
+	margin-bottom: -2%;
+
+}
+#main {
+	font-family: Bebas neue;
+	font-size: 40px;
+	color: white;
+}
+
+
