@@ -69,4 +69,6 @@ hr {
 	color: white;
 }
 
-
+#hover:hover {
+	color:grey;
+}
